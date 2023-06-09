@@ -79,6 +79,16 @@ patterns = [
     re.compile(r"bonus_code=(.+)"),
     re.compile(r"promo_code=(.+)"),
     re.compile(r"deal_id=(.+)"),
+    re.compile(r"gclid=(.+)"),
+    re.compile(r"msclkid=(.+)"),
+    re.compile(r"fbclid=(.+)"),
+    re.compile(r"tduid=(.+)"),
+    re.compile(r"mcid=(.+)"),
+    re.compile(r"a_aid=(.+)"),
+    re.compile(r"a_bid=(.+)"),
+    re.compile(r"a_cid=(.+)"),
+    re.compile(r"site_id=(.+)"),
+    re.compile(r"pub_id=(.+)")
 ]
 
 def is_affiliate_url(url):
